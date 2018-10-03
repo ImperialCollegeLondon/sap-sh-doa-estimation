@@ -1,4 +1,4 @@
-function[est_doa_vec,counts,az_grid,inc_grid,smoothed_hist] = est_doas_piv(z,fs,mic,in_params)
+function[est_doa_vec,counts,az_grid,inc_grid,smoothed_hist] = est_doas_sspiv(z,fs,mic,in_params)
 % estimates the directions of arrival of up to nSrcMax sources using
 % pseudointensity vector (PIV) method
 % the histogrma grid is equally spaced (with possibly different resolutions) in 
